@@ -10,14 +10,7 @@ https://github.com/RayTracing/raytracing.github.io/
 
 It closely follows the structure and concepts introduced in **Ray Tracing in One Weekend**.
 
-The initial code structure is largely taken 1:1 from the official course example and is being extended and modified step by step to better understand each part of the ray tracing pipeline.
-
-## Purpose
-
-The main goal of this project is educational:
-- Understand how a ray tracer works internally
-- Learn modern C++ practices in a graphics context
-- Experiment with rendering concepts step by step
+The initial code structure is as of now  taken 1:1 from the official course example and is being extended and modified step by step to better understand each part of the ray tracing pipeline.
 
 ## Language
 
@@ -27,12 +20,15 @@ The main goal of this project is educational:
 
 1. Build the project using your preferred C++ build system (e.g. Visual Studio / CMake).
 2. Navigate to the output directory:
+1. 
 ```` \out\build\x64-Debug\````
+
 3. Execute the compiled project.
 
 ## Output
 
 After execution, the program generates an image file:
+
 ````output.ppm````
 
 You can open this file using an image viewer or editor that supports PPM files, such as:
